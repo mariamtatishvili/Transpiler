@@ -1,0 +1,21 @@
+$font-stack: Helvetica;
+$primary-color: #730000;
+
+.wrapper {
+  font: 100% $font-stack;
+  color: $primary-color;
+  border: 1px solid;
+  li {
+    font-size: 24px;
+  }
+}
+
+.alert,
+.warning {
+  ul,
+  p {
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+  }
+}
